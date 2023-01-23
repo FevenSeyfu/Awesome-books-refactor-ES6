@@ -53,9 +53,9 @@ A refactor to a project  I have done previously called Awesome Books, For now I 
 
 > Features to be added.
 
-- **Add books to a list**
-- **Show list of Added Books**
-- **Remove book from the list**
+- **Use JS Modules**
+- **Use ES6 Syntax**
+- **Keep the functionalities**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +65,7 @@ A refactor to a project  I have done previously called Awesome Books, For now I 
 
 > Project link.
 
-- [Link to live Demo](https://fevenseyfu.github.io/Awesome-Books/)
+- [Link to live Demo](https://fevenseyfu.github.io/Awesome-books-refactor-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +88,7 @@ To get a local copy up and running, follow these steps.
 https://git-scm.com/downloads and install it).
 - Step 2: Once you have installed git you can clone this project using the command below:
   ```
-  git clone https://github.com/FevenSeyfu/Awesome-Books.git
+  git clone https://github.com/FevenSeyfu/Awesome-books-refactor-ES6.git
   ```
 - Step 3: Once you have cloned this repo navigate to the folder that contains
 the repository.
@@ -104,13 +104,6 @@ the repository.
 
 - GitHub: [@FevenSeyfu](https://github.com/FevenSeyfu)
 - LinkedIn: [@feven-seyfu](https://www.linkedin.com/in/feven-seyfu-0008641b0)
-
-
-👤 **Author**
-
-- GitHub: [@Engruugbejimmy](https://github.com/EngruugbeJimmy)
-- LinkedIn: [@feven-seyfu](https://www.linkedin.com/in/abah-james-ugbede-356982159/)
-
 
 <!-- FUTURE FEATURES -->
 
