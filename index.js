@@ -1,7 +1,7 @@
 /* eslint-disable import/no-cycle */
 import { loadList, loadAdd, loadContact } from './modules/navbar.js';
 import { Book } from './modules/library.js';
-
+import { DateTime } from './modules/luxon.js';
 // nav links variables
 const navList = document.getElementById('list');
 const navAdd = document.getElementById('add-new');
@@ -44,6 +44,18 @@ document.body.addEventListener('click', (e) => {
     Book.removeBooks(index);
   }
 });
+
+// adding the current time
+// creat varaible for the article
+const dateContainer = document.getElementById('current-time');
+const now = DateTime.now();
+const dateFull = now.toLocaleString(DateTime.DATE_FULL).toString();
+const timeWithSeconds = now.toLocaleString(DateTime.TIME_WITH_SECONDS).toString();
+const fullDate = [dateFull, timeWithSeconds].join(',');
+// display current time
+const p = document.createElement('p');
+p.innerHTML = `${fullDate}`;
+dateContainer.appendChild(p);
 
 // sections to display
 export {
