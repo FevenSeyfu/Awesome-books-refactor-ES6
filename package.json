@@ -35,5 +35,14 @@
     "stylus": "^0.59.0",
     "wrappy": "^1.0.2"
   },
-  "description": ""
+  "description": "A refactor to a project  I have done previously called Awesome Books, For now I am using modules to render different parts of the site and ES6 best practices like arrow function.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FevenSeyfu/Awesome-books-refactor-ES6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FevenSeyfu/Awesome-books-refactor-ES6/issues"
+  },
+  "homepage": "https://github.com/FevenSeyfu/Awesome-books-refactor-ES6#readme"
+
 }
